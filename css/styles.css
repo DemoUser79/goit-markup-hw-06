@@ -208,6 +208,7 @@ body {
 }
 
 .modal-btn {
+    border: transparent;
     min-width: 169px;
     height: 56px;
     font-family: inherit;
@@ -582,6 +583,7 @@ body {
 }
 
 .button-subscribe {
+    border: transparent;
     margin: 0;
     display: inline-block;
     font-weight: 500;
@@ -753,11 +755,12 @@ body {
 }
 
 .modal-close {
+    cursor: pointer;
     color: #000000;
     background-color: #E7E9FC;
     width: 24px;
     height: 24px;
-    border: 1px solid #000000 10%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -825,7 +828,6 @@ body {
     transform: translateY(-50%);
 }
 
-.modal-input-text span,
 .modal-input-text {
     margin-bottom: 4px;
     display: block;
@@ -884,6 +886,7 @@ body {
 }
 
 .button-send {
+    border: transparent;
     cursor: pointer;
     padding: 16px 32px;
     font-weight: 500;
