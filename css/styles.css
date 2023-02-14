@@ -821,6 +821,14 @@ body {
     margin-bottom: 8px;
 }
 
+.modal-field-comment {
+    margin-bottom: 16px;
+}
+
+.modal-field-checkbox {
+    margin-bottom: 24px;
+}
+
 .modal-input-icon {
     position: absolute;
     left: 16px;
